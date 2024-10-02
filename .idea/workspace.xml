@@ -23,11 +23,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Stantardized main.c">
+    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Fix Bug!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/.cmake/api/v1/reply/index-2024-10-02T09-04-35-0924.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727864284089</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix Bug!">
+      <option name="closed" value="true" />
+      <created>1727865759047</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727865759047</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +259,7 @@
     <MESSAGE value="Added gamma, there is a bug." />
     <MESSAGE value="FixBug" />
     <MESSAGE value="Stantardized main.c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stantardized main.c" />
+    <MESSAGE value="Fix Bug!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Bug!" />
   </component>
 </project>
