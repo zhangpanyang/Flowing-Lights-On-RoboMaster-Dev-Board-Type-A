@@ -23,10 +23,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Added gamma, there is a bug.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/LED.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.cpp" afterDir="false" />
+    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="FixBug">
+      <change beforePath="$PROJECT_DIR$/Core/Src/start.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/start.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <workItem from="1727849556717" duration="161000" />
       <workItem from="1727849752882" duration="2941000" />
       <workItem from="1727852809216" duration="4432000" />
-      <workItem from="1727857507264" duration="5435000" />
+      <workItem from="1727857507264" duration="5570000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -194,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727863821037</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="FixBug">
+      <option name="closed" value="true" />
+      <created>1727864054200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727864054200</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +231,7 @@
     <MESSAGE value="Steps" />
     <MESSAGE value="Flow!" />
     <MESSAGE value="Added gamma, there is a bug." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gamma, there is a bug." />
+    <MESSAGE value="FixBug" />
+    <option name="LAST_COMMIT_MESSAGE" value="FixBug" />
   </component>
 </project>
