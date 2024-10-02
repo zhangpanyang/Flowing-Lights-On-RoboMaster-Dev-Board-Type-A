@@ -9,10 +9,6 @@
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	while(1)
-	{
-
-	}
 	if (GPIO_Pin == BUTTON_Pin)
 	{
 		LEDOnButtonClick();
