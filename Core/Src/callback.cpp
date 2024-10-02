@@ -10,7 +10,6 @@
 extern LED leds[8];
 
 int count = 0;
-int lightness = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
@@ -19,20 +18,23 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		for(auto & led : leds)
 			led.timerRoutine();
 
-		// count++;
+		count++;
 
 		// if(count == 12800)
 		// {
 		// 	lightness = 0;
 		// 	count = 0;
 		// }
-		//
-		// if (count%100 == 0)
-		// {
-		// 	for(auto & led : leds)
-		// 		led.setCurrentLightLevel(lightness);
-		//
-		// 	lightness++;
-		// }
+
+		if (count == 100)
+		{
+			for(auto & led : leds)
+			{
+				if(led.currentLightLevel_ == 0)
+					led.setCurrentLightLevel(led.lightLevelMax_-1);
+				led.currentLightLevel_--;
+			}
+			count = 0;
+		}
 	}
 }
