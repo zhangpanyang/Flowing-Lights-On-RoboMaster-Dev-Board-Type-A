@@ -10,7 +10,9 @@
 class LED {
 private:
 	double gamma_;
+	uint8_t realCurrentLight_;
     uint8_t counter_;
+	void calcRealCurrentLight();
 
 public:
 	GPIO_TypeDef *port_;
@@ -20,6 +22,7 @@ public:
 	LED();
 	LED(GPIO_TypeDef *port, uint16_t pin, uint8_t lightLevelMax, double gamma);
     void setCurrentLightLevel(uint8_t currentLightLevel);
+    uint8_t getCurrentLightLevel() const;
     void timerRoutine();
 };
 
