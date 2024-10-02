@@ -7,9 +7,9 @@
 
 #include "LED.h"
 
-LED leds[8];
-int count = 0;
+inline LED leds[8];
+inline int count = 0;
 
-void initLEDS();
+void initLEDs();
 
 #endif //__LED_TASK_H__

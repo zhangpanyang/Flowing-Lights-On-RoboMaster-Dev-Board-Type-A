@@ -33,4 +33,4 @@ stm32testproject/start.o: ..\Core\Src\start.cpp ..\Core\Src\start.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
-  ..\Core\Inc\tim.h ..\Core\Src\LED.h
+  ..\Core\Inc\tim.h ..\Core\Src\LED_task.h ..\Core\Src\LED.h
