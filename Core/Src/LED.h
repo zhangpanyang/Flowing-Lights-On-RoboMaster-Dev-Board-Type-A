@@ -9,7 +9,7 @@
 
 class LED {
 private:
-	double gamma_;
+	float gamma_;
 	uint8_t realCurrentLight_;
     uint8_t currentLightLevel_;
     uint8_t counter_;

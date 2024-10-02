@@ -28,7 +28,7 @@ LED::LED(GPIO_TypeDef *port, uint16_t pin, uint8_t lightLevelMax, double gamma) 
 
 void LED::calcRealCurrentLight()
 {
-	realCurrentLight_ = (uint8_t)std::round(std::pow(currentLightLevel_/128.0, gamma_)*128);
+	realCurrentLight_ = (uint8_t)std::round(std::pow((float)currentLightLevel_/128.0, gamma_)*128);
 }
 
 
