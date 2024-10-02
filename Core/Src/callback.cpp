@@ -7,6 +7,17 @@
 
 #include "LED_task.h"
 
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	while(1)
+	{
+
+	}
+	if (GPIO_Pin == BUTTON_Pin)
+	{
+		LEDOnButtonClick();
+	}
+}
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {

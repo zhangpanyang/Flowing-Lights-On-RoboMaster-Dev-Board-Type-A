@@ -14,5 +14,6 @@ inline uint8_t ledTaskDirection = 0;
 void initLEDs();
 void LEDTaskRoutine();
 void LEDTaskInit(uint8_t d);
+void LEDOnButtonClick();
 
 #endif //__LED_TASK_H__

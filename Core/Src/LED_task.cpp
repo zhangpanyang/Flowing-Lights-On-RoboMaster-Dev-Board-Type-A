@@ -33,6 +33,12 @@ void LEDTaskInit(uint8_t d)
 	}
 }
 
+void LEDOnButtonClick()
+{
+	ledTaskDirection ^= 1;
+	LEDTaskInit(ledTaskDirection);
+}
+
 void LEDTaskRoutine()
 {
 	for(auto & led : leds)
