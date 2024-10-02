@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"stm32testproject\startup_stm32f427xx.o"
+"stm32testproject\main.o"
+"stm32testproject\gpio.o"
+"stm32testproject\tim.o"
+"stm32testproject\stm32f4xx_it.o"
+"stm32testproject\stm32f4xx_hal_msp.o"
+"stm32testproject\callback.o"
+"stm32testproject\stm32f4xx_hal_tim.o"
+"stm32testproject\stm32f4xx_hal_tim_ex.o"
+"stm32testproject\stm32f4xx_hal_rcc.o"
+"stm32testproject\stm32f4xx_hal_rcc_ex.o"
+"stm32testproject\stm32f4xx_hal_flash.o"
+"stm32testproject\stm32f4xx_hal_flash_ex.o"
+"stm32testproject\stm32f4xx_hal_flash_ramfunc.o"
+"stm32testproject\stm32f4xx_hal_gpio.o"
+"stm32testproject\stm32f4xx_hal_dma_ex.o"
+"stm32testproject\stm32f4xx_hal_dma.o"
+"stm32testproject\stm32f4xx_hal_pwr.o"
+"stm32testproject\stm32f4xx_hal_pwr_ex.o"
+"stm32testproject\stm32f4xx_hal_cortex.o"
+"stm32testproject\stm32f4xx_hal.o"
+"stm32testproject\stm32f4xx_hal_exti.o"
+"stm32testproject\system_stm32f4xx.o"
+--strict --scatter "STM32TestProject\STM32TestProject.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32TestProject.map" -o STM32TestProject\STM32TestProject.axf
