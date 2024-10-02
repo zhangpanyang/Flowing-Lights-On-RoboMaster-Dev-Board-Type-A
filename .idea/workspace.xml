@@ -23,14 +23,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Reconstruct">
+    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Rename">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/LED_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED_task.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/LED_task.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED_task.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727875912653</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Rename">
+      <option name="closed" value="true" />
+      <created>1727877403191</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727877403191</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Rename">
+      <option name="closed" value="true" />
+      <created>1727877611074</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727877611074</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +326,7 @@
     <MESSAGE value="Added readme file" />
     <MESSAGE value="Enabled external interrupt" />
     <MESSAGE value="Reconstruct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reconstruct" />
+    <MESSAGE value="Rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename" />
   </component>
 </project>
