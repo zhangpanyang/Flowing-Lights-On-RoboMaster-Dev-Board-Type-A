@@ -11,5 +11,6 @@ inline LED leds[8];
 inline int count = 0;
 
 void initLEDs();
+void LEDTaskRoutine();
 
 #endif //__LED_TASK_H__

@@ -23,34 +23,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Enabled external interrupt">
+    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Reconstruct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/LED_task.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED_task.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/LED_task.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED_task.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvguix.Sunny" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvguix.Sunny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.axf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.lnp" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.lnp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/callback.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/callback.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/callback.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/callback.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/start.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/start.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/start.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/start.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/tim.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/tim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32TestProject.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/STM32TestProject.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727874721285</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Reconstruct">
+      <option name="closed" value="true" />
+      <created>1727875912653</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727875912653</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +310,7 @@
     <MESSAGE value="Fix Bug!" />
     <MESSAGE value="Added readme file" />
     <MESSAGE value="Enabled external interrupt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enabled external interrupt" />
+    <MESSAGE value="Reconstruct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reconstruct" />
   </component>
 </project>

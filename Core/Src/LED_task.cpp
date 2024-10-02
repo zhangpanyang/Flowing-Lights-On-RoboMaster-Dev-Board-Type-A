@@ -21,3 +21,24 @@ void initLEDs()
 		leds[i].setCurrentLightLevel(i*16);
 	}
 }
+
+void LEDTaskRoutine()
+{
+	for(auto & led : leds)
+		led.timerRoutine();
+
+	count++;
+
+	if (count == 1000)
+	{
+		for(auto & led : leds)
+		{
+			uint8_t lightLevel = led.getCurrentLightLevel();
+			if(lightLevel == 0)
+				led.setCurrentLightLevel(led.lightLevelMax_-1);
+			else
+				led.setCurrentLightLevel(lightLevel-1);
+		}
+		count = 0;
+	}
+}
