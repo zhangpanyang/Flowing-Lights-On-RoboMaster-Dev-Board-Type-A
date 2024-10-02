@@ -26,7 +26,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		// 	count = 0;
 		// }
 
-		if (count == 100)
+		if (count == 1000)
 		{
 			for(auto & led : leds)
 			{
