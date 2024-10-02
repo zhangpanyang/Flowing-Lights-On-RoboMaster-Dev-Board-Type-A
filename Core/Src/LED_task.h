@@ -8,7 +8,8 @@
 #include "LED.h"
 
 inline LED leds[8];
-inline int count = 0;
+inline int ledTaskCount = 0;
+inline uint8_t ledTaskDirection = 0;
 
 void initLEDs();
 void LEDTaskRoutine();

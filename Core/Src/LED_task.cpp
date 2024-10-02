@@ -27,9 +27,9 @@ void LEDTaskRoutine()
 	for(auto & led : leds)
 		led.timerRoutine();
 
-	count++;
+	ledTaskCount++;
 
-	if (count == 1000)
+	if (ledTaskCount == 1000)
 	{
 		for(auto & led : leds)
 		{
@@ -39,6 +39,6 @@ void LEDTaskRoutine()
 			else
 				led.setCurrentLightLevel(lightLevel-1);
 		}
-		count = 0;
+		ledTaskCount = 0;
 	}
 }
