@@ -20,10 +20,11 @@
 #include "main.h"
 #include "tim.h"
 #include "gpio.h"
-#include "start.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+#include "start.h"
 
 /* USER CODE END Includes */
 
