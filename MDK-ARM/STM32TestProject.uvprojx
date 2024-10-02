@@ -395,6 +395,11 @@
           <GroupName>Application/User/Core</GroupName>
           <Files>
             <File>
+              <FileName>callback.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Core\Src\callback.cpp</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/main.c</FilePath>
@@ -418,11 +423,6 @@
               <FileName>stm32f4xx_hal_msp.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_msp.c</FilePath>
-            </File>
-            <File>
-              <FileName>callback.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>..\Core\Src\callback.cpp</FilePath>
             </File>
           </Files>
         </Group>

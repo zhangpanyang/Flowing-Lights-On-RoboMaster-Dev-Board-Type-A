@@ -13,7 +13,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		count++;
 		if (count == 1000)
 		{
-			HAL_GPIO_TogglePin(LED_1_GPIO_Port, LED_1_Pin);
+			HAL_GPIO_TogglePin(LED_2_GPIO_Port, LED_2_Pin);
 			count = 0;
 		}
 
