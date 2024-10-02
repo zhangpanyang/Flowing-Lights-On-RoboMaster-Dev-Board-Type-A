@@ -23,26 +23,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Flow!">
+    <list default="true" id="327b2f1b-b43a-4075-9aaa-f20d4cf2e0bf" name="Changes" comment="Added gamma, there is a bug.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/LED.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/LED.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/LED.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.axf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/STM32TestProject_STM32TestProject.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/led.d" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/led.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/STM32TestProject/led.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw-stm32/STM32TestProject.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/callback.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +120,7 @@
       <workItem from="1727849556717" duration="161000" />
       <workItem from="1727849752882" duration="2941000" />
       <workItem from="1727852809216" duration="4432000" />
-      <workItem from="1727857507264" duration="5268000" />
+      <workItem from="1727857507264" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
@@ -202,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727863046822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added gamma, there is a bug.">
+      <option name="closed" value="true" />
+      <created>1727863821037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727863821037</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +224,7 @@
     <MESSAGE value="Totally new" />
     <MESSAGE value="Steps" />
     <MESSAGE value="Flow!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flow!" />
+    <MESSAGE value="Added gamma, there is a bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gamma, there is a bug." />
   </component>
 </project>

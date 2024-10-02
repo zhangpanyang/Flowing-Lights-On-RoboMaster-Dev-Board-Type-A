@@ -30,9 +30,11 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		{
 			for(auto & led : leds)
 			{
-				if(led.currentLightLevel_ == 0)
+				uint8_t lightLevel = led.getCurrentLightLevel();
+				if(lightLevel == 0)
 					led.setCurrentLightLevel(led.lightLevelMax_-1);
-				led.currentLightLevel_--;
+				else
+					led.setCurrentLightLevel(lightLevel-1);
 			}
 			count = 0;
 		}
