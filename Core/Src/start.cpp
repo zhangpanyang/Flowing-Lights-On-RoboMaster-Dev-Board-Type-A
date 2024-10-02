@@ -19,6 +19,11 @@ void initLEDS()
 	leds[5] = LED(LED_6_GPIO_Port, LED_6_Pin, 128, 1);
 	leds[6] = LED(LED_7_GPIO_Port, LED_7_Pin, 128, 1);
 	leds[7] = LED(LED_8_GPIO_Port, LED_8_Pin, 128, 1);
+
+	for (int i = 0; i < 8; i++)
+	{
+		leds[i].setCurrentLightLevel(i*16);
+	}
 }
 
 void startup()
