@@ -152,6 +152,30 @@ Core/Src/LED.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.s
 .PHONY : Core/Src/LED.cpp.s
 
+Core/Src/LED_task.obj: Core/Src/LED_task.cpp.obj
+.PHONY : Core/Src/LED_task.obj
+
+# target to build an object file
+Core/Src/LED_task.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj
+.PHONY : Core/Src/LED_task.cpp.obj
+
+Core/Src/LED_task.i: Core/Src/LED_task.cpp.i
+.PHONY : Core/Src/LED_task.i
+
+# target to preprocess a source file
+Core/Src/LED_task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.i
+.PHONY : Core/Src/LED_task.cpp.i
+
+Core/Src/LED_task.s: Core/Src/LED_task.cpp.s
+.PHONY : Core/Src/LED_task.s
+
+# target to generate assembly for a file
+Core/Src/LED_task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.s
+.PHONY : Core/Src/LED_task.cpp.s
+
 Core/Src/callback.obj: Core/Src/callback.cpp.obj
 .PHONY : Core/Src/callback.obj
 
@@ -399,30 +423,6 @@ Core/Startup/startup_stm32f427iihx.obj: Core/Startup/startup_stm32f427iihx.s.obj
 Core/Startup/startup_stm32f427iihx.s.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
 .PHONY : Core/Startup/startup_stm32f427iihx.s.obj
-
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj
-
-# target to build an object file
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i
-
-# target to preprocess a source file
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i
-
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s: Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s
-
-# target to generate assembly for a file
-Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32TestProject.elf.dir\build.make CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
-.PHONY : Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s
 
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
@@ -796,6 +796,9 @@ help:
 	@echo ... Core/Src/LED.obj
 	@echo ... Core/Src/LED.i
 	@echo ... Core/Src/LED.s
+	@echo ... Core/Src/LED_task.obj
+	@echo ... Core/Src/LED_task.i
+	@echo ... Core/Src/LED_task.s
 	@echo ... Core/Src/callback.obj
 	@echo ... Core/Src/callback.i
 	@echo ... Core/Src/callback.s
@@ -827,9 +830,6 @@ help:
 	@echo ... Core/Src/tim.i
 	@echo ... Core/Src/tim.s
 	@echo ... Core/Startup/startup_stm32f427iihx.obj
-	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.obj
-	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.i
-	@echo ... Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.s
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.s

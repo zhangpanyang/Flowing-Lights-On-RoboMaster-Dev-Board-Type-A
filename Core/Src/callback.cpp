@@ -7,9 +7,6 @@
 
 #include "LED.h"
 
-extern LED leds[8];
-
-int count = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {

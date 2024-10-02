@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj.d"
+  "CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj"
+  "CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj.d"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj.d"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj"
@@ -22,8 +24,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj.d"
   "CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
-  "CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj"
-  "CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj.d"
   "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
   "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj.d"
   "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"

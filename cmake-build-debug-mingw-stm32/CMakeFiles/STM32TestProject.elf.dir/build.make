@@ -82,10 +82,24 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.s"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\LED.cpp -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\LED.cpp.s
 
+CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
+CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/LED_task.cpp
+CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj"
+	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\LED_task.cpp.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\LED_task.cpp.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\LED_task.cpp
+
+CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.i"
+	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\LED_task.cpp > CMakeFiles\STM32TestProject.elf.dir\Core\Src\LED_task.cpp.i
+
+CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.s"
+	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\LED_task.cpp -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\LED_task.cpp.s
+
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/callback.cpp
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\callback.cpp.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\callback.cpp.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\callback.cpp
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/gpio.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\gpio.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\gpio.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/main.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\main.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\main.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/start.cpp
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\start.cpp.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\start.cpp.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\start.cpp
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/start.cpp.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/stm32f4xx_it.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\stm32f4xx_it.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -169,7 +183,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/syscalls.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\syscalls.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\syscalls.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -183,7 +197,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/sysmem.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\sysmem.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\sysmem.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/system_stm32f4xx.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\system_stm32f4xx.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Src/tim.c
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Core\Src\tim.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Core\Src\tim.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Src\tim.c
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.s: cmake_force
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building ASM object CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32TestProject.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
@@ -234,20 +248,6 @@ CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmak
 CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.s"
 	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Core\Startup\startup_stm32f427iihx.s -o CMakeFiles\STM32TestProject.elf.dir\Core\Startup\startup_stm32f427iihx.s.s
-
-CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
-CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: CMakeFiles/STM32TestProject.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\cmake-build-debug-mingw-stm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj"
-	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj -MF CMakeFiles\STM32TestProject.elf.dir\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c.obj.d -o CMakeFiles\STM32TestProject.elf.dir\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c.obj -c E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
-
-CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i"
-	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c > CMakeFiles\STM32TestProject.elf.dir\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c.i
-
-CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.s"
-	C:\MyProgramFiles\Engineering\Embedded\STM32CubeCLT-1.16.0\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Work\EmbeddedProjects\ProgramingProjects\STM32TestProject\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c -o CMakeFiles\STM32TestProject.elf.dir\Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c.s
 
 CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/STM32TestProject.elf.dir/flags.make
 CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: E:/Work/EmbeddedProjects/ProgramingProjects/STM32TestProject/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
@@ -462,6 +462,7 @@ CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_h
 # Object files for target STM32TestProject.elf
 STM32TestProject_elf_OBJECTS = \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj" \
+"CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj" \
@@ -473,7 +474,6 @@ STM32TestProject_elf_OBJECTS = \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj" \
-"CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" \
 "CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" \
@@ -494,6 +494,7 @@ STM32TestProject_elf_OBJECTS = \
 STM32TestProject_elf_EXTERNAL_OBJECTS =
 
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED.cpp.obj
+STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/LED_task.cpp.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/callback.cpp.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/gpio.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/main.c.obj
@@ -505,7 +506,6 @@ STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/sysmem.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/system_stm32f4xx.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Src/tim.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj
-STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
 STM32TestProject.elf: CMakeFiles/STM32TestProject.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj

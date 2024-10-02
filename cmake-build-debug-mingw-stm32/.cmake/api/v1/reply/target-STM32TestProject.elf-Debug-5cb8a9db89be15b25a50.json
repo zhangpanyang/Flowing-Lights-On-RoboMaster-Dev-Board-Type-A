@@ -183,7 +183,8 @@
 			[
 				5,
 				7,
-				10
+				9,
+				12
 			]
 		},
 		{
@@ -278,16 +279,14 @@
 			},
 			"sourceIndexes" : 
 			[
-				8,
-				9,
-				12,
-				13,
+				10,
+				11,
 				14,
 				15,
 				16,
 				17,
-				23,
-				75,
+				18,
+				19,
 				76,
 				77,
 				78,
@@ -301,7 +300,8 @@
 				86,
 				87,
 				88,
-				89
+				89,
+				90
 			]
 		},
 		{
@@ -396,7 +396,7 @@
 			"language" : "ASM",
 			"sourceIndexes" : 
 			[
-				18
+				20
 			]
 		}
 	],
@@ -465,11 +465,11 @@
 				3,
 				4,
 				6,
-				11,
-				19,
-				20,
+				8,
+				13,
 				21,
-				24,
+				22,
+				23,
 				25,
 				26,
 				27,
@@ -490,7 +490,7 @@
 				42,
 				43,
 				44,
-				46,
+				45,
 				47,
 				48,
 				49,
@@ -517,7 +517,8 @@
 				70,
 				71,
 				72,
-				73
+				73,
+				74
 			]
 		},
 		{
@@ -526,17 +527,16 @@
 			[
 				5,
 				7,
-				8,
 				9,
 				10,
+				11,
 				12,
-				13,
 				14,
 				15,
 				16,
 				17,
-				23,
-				75,
+				18,
+				19,
 				76,
 				77,
 				78,
@@ -550,18 +550,19 @@
 				86,
 				87,
 				88,
-				89
+				89,
+				90
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				18,
-				22,
-				45,
-				74,
-				90
+				20,
+				24,
+				46,
+				75,
+				91
 			]
 		}
 	],
@@ -601,6 +602,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "Core/Src/LED.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/LED_task.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Src/LED_task.h",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -693,12 +705,6 @@
 			"backtrace" : 1,
 			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
 			"sourceGroupIndex" : 2
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c",
-			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
