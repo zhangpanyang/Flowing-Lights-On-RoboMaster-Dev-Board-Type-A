@@ -5,6 +5,15 @@
 #include "LED.h"
 #include "main.h"
 
+LED::LED()
+{
+	port_ = nullptr;
+	pin_ = 0;
+	lightLevelMax_ = 0;
+	gamma_ = 0;
+	currentLightLevel_ = 0;
+	counter_ = 0;
+}
 LED::LED(GPIO_TypeDef *port, uint16_t pin, uint8_t lightLevelMax, double gamma) {
 	port_ = port;
     pin_ = pin;
